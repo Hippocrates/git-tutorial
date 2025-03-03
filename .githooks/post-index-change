@@ -1,0 +1,3 @@
+#!/bin/sh
+source .githooks/find_python3.sh
+"$PYTHON3" .githooks/clean_locks.py

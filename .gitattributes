@@ -1,0 +1,33 @@
+[attr]lock filter=lfs diff=lfs merge=binary -text lockable
+[attr]lockonly lockable
+[attr]lfs filter=lfs diff=lfs merge=binary -text
+[attr]lfstext filter=lfs diff=lfstext merge=lfstext -text
+# Unreal Engine file types
+*.uasset lock
+*.umap lock
+*.locres lfs
+*.locmeta lfs
+# Icons and images
+*.png lfs
+*.tga lfs
+*.ico lfs
+*.icns lfs
+# Meshes and animations
+*.fbx lfs
+# Steam Audio files
+*.phononscene lfs
+*.probebox lfs
+*.probebatch lfs
+*.bakedsources lfs
+# Binaries (should not require locking)
+*.exe lfs
+*.dll lfs
+*.rcc lfs
+# FMOD (we will leave locking off for now if only Cole is using them)
+*.bank lfs 
+*.wav lfs
+*.mp3 lfs
+*.ogg lfs
+*.flac lfs
+# Movies
+*.bk2 lfs
