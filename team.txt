@@ -11,3 +11,10 @@ hanna@braceyourselfgames.com
 Ryan Giuliany
 rgiuliany
 ryan.giuliany@braceyourselfgames.com
+<<<<<<< Updated upstream
+=======
+
+Kimberly Voll
+zanytomato
+kimberly@braceyourselfgames.com
+>>>>>>> Stashed changes
