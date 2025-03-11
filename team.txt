@@ -4,6 +4,17 @@ Stephen Kiazyk
 Hippocrates
 stephen@braceyourselfgames.com
 
+Hanna is a keener
+hannahildebrandt
+hanna@braceyourselfgames.com
+
 Ryan Giuliany
 rgiuliany
 ryan.giuliany@braceyourselfgames.com
+<<<<<<< Updated upstream
+=======
+
+Kimberly Voll
+zanytomato
+kimberly@braceyourselfgames.com
+>>>>>>> Stashed changes

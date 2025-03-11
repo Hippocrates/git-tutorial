@@ -24,7 +24,7 @@ First we must install git on your local machine.
 
 # Install Python (optional)
 
-If you don't have Python installed, we will want it installed. _Technically_ Unreal 5 comes with python 3 installed, so we can work around it if you have Unreal on your machine already, but it _must_ be installed to the default location.
+If you don't have Python installed, we will want it installed. _Technically_ Unreal 5 comes with python 3 installed, so we can work around it if you have Unreal on your machine already, but Unreal _must_ be installed to the default location (`C:\Program Files\Epic Games\UE_5.4`) for these work-arounds to work.
 
 To install Python:
 1. Navigate to https://www.python.org/downloads/
