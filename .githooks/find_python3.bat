@@ -2,17 +2,17 @@
 if exist "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\ThirdParty\Python3\Win64\python.exe" (  
   set PYTHON3="C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\ThirdParty\Python3\Win64\python.exe"
 ) else (
-  where python3
+  where python
   if %ERRORLEVEL% == 0 (
-    set PYTHON3="python3"
+    python -c "import sys;sys.exit(sys.version_info.major!=3)"
+    if %ERRORLEVEL% == 0 (
+	  set PYTHON3="python"
+    )
   ) else (
-    where python
-	if %ERRORLEVEL% == 0 (
-	  python -c "import sys;sys.exit(sys.version_info.major!=3)"
-	  if %ERRORLEVEL% == 0 (
-	    set PYTHON3="python"
-	  )
-	)
+    where python3
+    if %ERRORLEVEL% == 0 (
+      set PYTHON3="python3"
+    )
   )
 )
 
