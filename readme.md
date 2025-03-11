@@ -1,3 +1,5 @@
+# This readme has been taken over by kyle >:)
+
 In order to ensure everyone has a basic understanding of how to work with git, please read through the following (if you are already familiar with git, have a github account, and have used Git LFS, then you can _probably_ skip to `Clone the repository`, but only if you are _sure_ you have everything in place).
 
 # Install Git
