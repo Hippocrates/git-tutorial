@@ -6,9 +6,19 @@ if exist "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\ThirdParty\Python3\
   if %ERRORLEVEL% == 0 (
     set PYTHON3="python3"
   ) else (
-    echo "Error: Could not find a python installation"
-	exit /b 1
+    where python
+	if %ERRORLEVEL% == 0 (
+	  python -c "import sys;sys.exit(sys.version_info.major!=3)"
+	  if %ERRORLEVEL% == 0 (
+	    set PYTHON3="python"
+	  )
+	)
   )
+)
+
+if %PYTHON3%==^%PYTHON3% (
+	echo "Error: Could not find a python installation"
+	exit /b 1
 )
 
 rem echo "Found python: %PYTHON3%"
